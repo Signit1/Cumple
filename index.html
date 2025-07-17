@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎂 ¡Feliz Cumpleaños Amor!! - Regalo de Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Elementos del fondo futurista -->
+    <div class="particles">
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+        <div class="particle">🏆</div>
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+        <div class="particle">🏆</div>
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+        <div class="particle">🏆</div>
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+        <div class="particle">🏆</div>
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+        <div class="particle">🏆</div>
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+        <div class="particle">🏆</div>
+        <div class="particle">🏁</div>
+        <div class="particle">🏎️</div>
+    </div>
+    
+    <div class="energy-waves">
+        <div class="energy-wave"></div>
+        <div class="energy-wave"></div>
+        <div class="energy-wave"></div>
+        <div class="energy-wave"></div>
+    </div>
+
+    <div id="app">
+        <!-- Pantalla de inicio -->
+        <div id="start-screen" class="screen active">
+            <div class="container">
+                <h1>🎂 ¡Feliz Cumpleaños Amor!!</h1>
+                <h2>Bienvenido a este pequeño regalo de Cumpleaños</h2>
+                <div class="logo">
+                    🏎️🏓💻🇩🇪
+                </div>
+                <p class="subtitle">Una aventura interactiva de cumpleaños</p>
+                <button id="start-btn" class="btn-primary">🚀 Iniciar Desafío</button>
+                <button id="test-btn" class="btn-secondary">🧪 Modo Prueba</button>
+            </div>
+        </div>
+
+        <!-- Pantalla de selección de fase -->
+        <div id="phase-select-screen" class="screen">
+            <div class="container">
+                <h2>📅 Selecciona la Fase</h2>
+                <div class="phase-options">
+                    <div class="phase-card" data-phase="1">
+                        <h3>🏓 Fase 1: Día del Pádel</h3>
+                        <p>18 de Julio - Mensaje de bienvenida</p>
+                        <div class="phase-icon">🏓</div>
+                    </div>
+                    <div class="phase-card" data-phase="2">
+                        <h3>🏎️ Fase 2: Gran Premio</h3>
+                        <p>19 de Julio - Desafío de pistas</p>
+                        <div class="phase-icon">🏎️</div>
+                    </div>
+                </div>
+                <button id="back-btn" class="btn-secondary">← Volver</button>
+            </div>
+        </div>
+
+        <!-- Pantalla de Fase 1 -->
+        <div id="phase1-screen" class="screen">
+            <div class="container">
+                <div class="padel-header">
+                    <div class="padel-balls">🏓🏓🏓🏓🏓🏓🏓🏓🏓🏓</div>
+                    <div class="padel-balls">🏓🏓🏓🏓🏓🏓🏓🏓🏓🏓</div>
+                </div>
+                
+                <div class="message-card">
+                    <h2>¡Bienvenido al Desafío del Campeón, Constantino!</h2>
+                    <div class="message-content">
+                        <p>Hoy hemos compartido la cancha, y una vez más me has demostrado tu pasión y tu espíritu de lucha. Como en el pádel, en la vida eres un verdadero campeón, un ganador nato que convierte cada desafío en una oportunidad. Esta es solo la primera jugada de algo especial.</p>
+                        <p>Mañana, la verdadera carrera comienza. Prepárate para usar todo tu ingenio. Por ahora, solo disfruta de este momento y de ser el increíble tú que eres.</p>
+                    </div>
+                </div>
+
+                <div class="padel-footer">
+                    <div class="padel-balls">🏓🏓🏓🏓🏓🏓🏓🏓🏓🏓</div>
+                    <div class="padel-balls">🏓🏓🏓🏓🏓🏓🏓🏓🏓🏓</div>
+                </div>
+
+                <button id="continue-btn" class="btn-primary">🎾 Continuar</button>
+                <button id="loading-btn" class="btn-secondary" style="display: none;">⏳ Programando...</button>
+            </div>
+        </div>
+
+        <!-- Pantalla de Fase 2 - Acertijo inicial -->
+        <div id="phase2-screen" class="screen">
+            <div class="container">
+                <div class="f1-header">
+                    <div class="f1-cars">🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️</div>
+                    <div class="f1-cars">🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️</div>
+                </div>
+
+                <div class="race-title">
+                    <h2>¡Gran Premio de Cumpleaños: Luces Verdes, Constantino!</h2>
+                    <p>¡Ingeniero, los motores están encendidos! Hoy es el día de un Gran Premio diferente, donde el circuito es tu intelecto y la meta es una celebración única. Para la primera vuelta, resuelve este acertijo y usa la respuesta como tu clave de acceso.</p>
+                </div>
+
+                <div class="riddle-card">
+                    <h3>🏁 ACERTIJO INICIAL - CURVA MÁGICA 🏁</h3>
+                    <div class="riddle-content">
+                        <p>Soy la curva más famosa de un circuito belga, donde la velocidad y la valentía se unen.</p>
+                        <p>Mi nombre, en alemán, podría evocar la palabra 'rojo'. ¿Qué curva soy?</p>
+                        <p class="hint">💡 Pista: Piensa en la intensidad y el color...</p>
+                    </div>
+                    
+                    <div class="answer-input">
+                        <input type="text" id="riddle-answer" placeholder="Tu respuesta..." maxlength="20">
+                        <button id="submit-riddle" class="btn-primary">🏁 Enviar</button>
+                    </div>
+                    
+                    <div id="riddle-feedback" class="feedback" style="display: none;"></div>
+                </div>
+
+                <div class="f1-footer">
+                    <div class="f1-cars">🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️</div>
+                    <div class="f1-cars">🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️🏎️</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de pistas -->
+        <div id="pistas-screen" class="screen">
+            <div class="container">
+                <div class="progress-bar">
+                    <div class="progress-info">
+                        <span>🏁 PISTAS COMPLETADAS: <span id="completed-count">0</span>/8</span>
+                        <span id="progress-percentage">0%</span>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="pista-card">
+                    <div class="pista-header">
+                        <h3 id="pista-title">🏁 PISTA 1 - VUELTA 1</h3>
+                        <div class="pista-number">1/8</div>
+                    </div>
+
+                    <div class="pista-content">
+                        <div id="pista-message" class="pista-message"></div>
+                        <div id="pista-location" class="pista-location"></div>
+                    </div>
+
+                    <button id="found-card-btn" class="btn-primary">📖 Encontré la carta</button>
+
+                    <div id="card-content" class="card-content" style="display: none;">
+                        <div class="card-header">💌 CONTENIDO DE LA CARTA</div>
+                        <div class="card-body">
+                            <div class="card-quote" id="card-quote"></div>
+                            <div class="card-message" id="card-message"></div>
+                        </div>
+                    </div>
+
+                    <div class="key-input" id="key-input" style="display: none;">
+                        <p>🔑 Ingresa la clave de la carta para continuar...</p>
+                        <input type="text" id="key-answer" placeholder="Clave..." maxlength="20">
+                        <button id="submit-key" class="btn-primary">🔑 Enviar</button>
+                    </div>
+
+                    <div id="key-feedback" class="feedback" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla final -->
+        <div id="final-screen" class="screen">
+            <div class="container">
+                <div class="trophy-header">
+                    <div class="trophy-line">🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆</div>
+                    <div class="trophy-line">🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆</div>
+                </div>
+
+                <div class="victory-card">
+                    <h2>¡BANDERA A CUADROS! ¡CAMPEÓN DEL GRAN PREMIO DEL AMOR Y EL CONOCIMIENTO!</h2>
+                    <div class="victory-message">
+                        <p>¡Lo lograste, Constantino! Has demostrado una vez más que no hay desafío que se te resista. Cada logro tuyo es un motivo de alegría y orgullo para mí. Tu esfuerzo, tu inteligencia y tu corazón gigante me inspiran.</p>
+                        <p>Ahora, dirígete al <strong>centro de la mesa en el comedor</strong> para recoger tu trofeo y celebrar tu cumpleaños, ¡y la promesa de muchos logros más juntos!</p>
+                        <p>¡Feliz Cumpleaños, mi amor! Siempre recuerda cuánto te amo y valoro. Eres increíble.</p>
+                    </div>
+                </div>
+
+                <div class="confetti-container" id="confetti-container"></div>
+
+                <div class="trophy-footer">
+                    <div class="trophy-line">🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆</div>
+                    <div class="trophy-line">🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆</div>
+                </div>
+
+                <button id="restart-btn" class="btn-primary">🏁 Reiniciar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

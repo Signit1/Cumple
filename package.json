@@ -1,0 +1,36 @@
+{
+  "name": "cumplec-hackathon-emocional",
+  "version": "1.0.0",
+  "description": "Hackathon Emocional para Constantino - Una aventura interactiva de cumpleaños con temática de F1",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "test": "open simular_produccion.html",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "cumpleaños",
+    "f1",
+    "hackathon",
+    "interactivo",
+    "javascript",
+    "html5",
+    "css3",
+    "animaciones"
+  ],
+  "author": "Cindy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cindy/cumplec-hackathon-emocional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cindy/cumplec-hackathon-emocional/issues"
+  },
+  "homepage": "https://github.com/cindy/cumplec-hackathon-emocional#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 

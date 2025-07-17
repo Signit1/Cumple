@@ -1,0 +1,21 @@
+# CumpleC - Hackathon Emocional para Constantino
+# Requisitos mínimos para ejecutar el programa
+
+# No se requieren dependencias externas - solo Python estándar
+# El programa utiliza solo módulos de la biblioteca estándar de Python:
+# - os
+# - time
+# - sys
+# - datetime
+
+# Versión mínima de Python requerida
+# Python >= 3.6
+
+# Para verificar la versión de Python:
+# python3 --version
+
+# Para ejecutar el programa:
+# python3 cumplec.py
+
+# Para probar el programa:
+# python3 test_cumplec.py 
