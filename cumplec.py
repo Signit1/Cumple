@@ -151,7 +151,7 @@ Mañana, la verdadera carrera comienza. Prepárate para usar todo tu ingenio. Po
         print()
         
         mensaje_inicio = """
-¡Gran Premio de Cumpleaños: Luces Verdes, Constantino!
+¡Gran Premio de Cumpleaños: Se encienden las luces verdes!
 
 ¡Ingeniero, los motores están encendidos! Hoy es el día de un Gran Premio diferente, donde el circuito es tu intelecto y la meta es una celebración única. Para la primera vuelta, resuelve este acertijo y usa la respuesta como tu clave de acceso.
 """
