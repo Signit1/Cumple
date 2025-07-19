@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 ¡CumpleC - Hackathon Emocional para Constantino!
-Una aventura para encontrar tu regalo de cumpleaños con temática de F1 y programación.
+Una aventura para encontrar tu regalo con temática de F1 y programación.
 """
 
 import os

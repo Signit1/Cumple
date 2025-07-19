@@ -1,7 +1,7 @@
 {
   "name": "cumplec-hackathon-emocional",
   "version": "1.0.0",
-      "description": "Hackathon Emocional para Constantino - Una aventura para encontrar tu regalo de cumpleaños con temática de F1",
+      "description": "Hackathon Emocional para Constantino - Una aventura para encontrar tu regalo con temática de F1",
   "main": "index.html",
   "scripts": {
     "start": "open index.html",
