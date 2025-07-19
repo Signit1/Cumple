@@ -9,9 +9,9 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
     min-height: 100vh;
-    color: #333;
+    color: #ffffff;
     overflow-x: hidden;
     position: relative;
 }
@@ -258,25 +258,26 @@ body::after {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
     padding: 40px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(227, 24, 55, 0.3);
     backdrop-filter: blur(10px);
     text-align: center;
+    border: 2px solid #e31837;
 }
 
 /* Pantalla de inicio */
 h1 {
     font-size: 3rem;
-    color: #667eea;
+    color: #e31837;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 4px rgba(227, 24, 55, 0.5);
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #764ba2;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
@@ -294,7 +295,7 @@ h2 {
 
 .subtitle {
     font-size: 1.2rem;
-    color: #666;
+    color: #cccccc;
     margin-bottom: 40px;
 }
 
@@ -312,25 +313,25 @@ h2 {
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #e31837, #ff304f);
     color: white;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(227, 24, 55, 0.4);
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+    box-shadow: 0 8px 25px rgba(227, 24, 55, 0.6);
 }
 
 .btn-secondary {
-    background: linear-gradient(45deg, #f093fb, #f5576c);
+    background: linear-gradient(45deg, #333333, #666666);
     color: white;
-    box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+    box-shadow: 0 5px 15px rgba(51, 51, 51, 0.4);
 }
 
 .btn-secondary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(240, 147, 251, 0.6);
+    box-shadow: 0 8px 25px rgba(51, 51, 51, 0.6);
 }
 
 /* Selección de fase */
@@ -342,7 +343,7 @@ h2 {
 }
 
 .phase-card {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #e31837, #ff304f);
     color: white;
     padding: 30px;
     border-radius: 15px;
@@ -350,6 +351,7 @@ h2 {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    border: 1px solid #ffffff;
 }
 
 .phase-card:hover {
@@ -395,12 +397,13 @@ h2 {
 }
 
 .message-card {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #e31837, #ff304f);
     color: white;
     padding: 30px;
     border-radius: 15px;
     margin: 30px 0;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(227, 24, 55, 0.3);
+    border: 2px solid #ffffff;
 }
 
 .message-card h2 {
@@ -432,11 +435,12 @@ h2 {
 }
 
 .race-title {
-    background: linear-gradient(135deg, #f093fb, #f5576c);
+    background: linear-gradient(135deg, #e31837, #ff304f);
     color: white;
     padding: 25px;
     border-radius: 15px;
     margin: 20px 0;
+    border: 2px solid #ffffff;
 }
 
 .race-title h2 {
@@ -445,16 +449,17 @@ h2 {
 }
 
 .riddle-card {
-    background: white;
-    border: 3px solid #667eea;
+    background: #1a1a1a;
+    border: 3px solid #e31837;
     border-radius: 15px;
     padding: 30px;
     margin: 20px 0;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(227, 24, 55, 0.3);
+    color: white;
 }
 
 .riddle-card h3 {
-    color: #667eea;
+    color: #e31837;
     margin-bottom: 20px;
     font-size: 1.3rem;
 }
@@ -463,14 +468,16 @@ h2 {
     font-size: 1.1rem;
     margin-bottom: 15px;
     line-height: 1.5;
+    color: #ffffff;
 }
 
 .hint {
-    background: #fff3cd;
-    color: #856404;
+    background: #1a1a1a;
+    color: #ffff00;
     padding: 10px;
     border-radius: 8px;
     font-style: italic;
+    border: 1px solid #ffff00;
 }
 
 .answer-input {
@@ -484,26 +491,30 @@ h2 {
 
 .answer-input input {
     padding: 12px 20px;
-    border: 2px solid #667eea;
+    border: 2px solid #e31837;
     border-radius: 25px;
     font-size: 1rem;
     outline: none;
     transition: all 0.3s ease;
     min-width: 200px;
+    background: #333333;
+    color: white;
 }
 
 .answer-input input:focus {
-    border-color: #764ba2;
-    box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+    border-color: #e31837;
+    box-shadow: 0 0 10px rgba(227, 24, 55, 0.3);
 }
 
 /* Barra de progreso */
 .progress-bar {
-    background: white;
+    background: #1a1a1a;
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(227, 24, 55, 0.3);
+    border: 2px solid #e31837;
+    color: white;
 }
 
 .progress-info {
@@ -511,18 +522,19 @@ h2 {
     justify-content: space-between;
     margin-bottom: 15px;
     font-weight: bold;
-    color: #667eea;
+    color: #e31837;
 }
 
 .progress-track {
-    background: #e9ecef;
+    background: #333333;
     border-radius: 10px;
     height: 20px;
     overflow: hidden;
+    border: 1px solid #e31837;
 }
 
 .progress-fill {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #e31837, #ff304f);
     height: 100%;
     border-radius: 10px;
     transition: width 0.5s ease;
@@ -531,10 +543,12 @@ h2 {
 
 /* Pistas */
 .pista-card {
-    background: white;
+    background: #1a1a1a;
     border-radius: 15px;
     padding: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(227, 24, 55, 0.3);
+    border: 2px solid #e31837;
+    color: white;
 }
 
 .pista-header {
@@ -543,16 +557,16 @@ h2 {
     align-items: center;
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #e31837;
 }
 
 .pista-header h3 {
-    color: #667eea;
+    color: #e31837;
     font-size: 1.3rem;
 }
 
 .pista-number {
-    background: #667eea;
+    background: #e31837;
     color: white;
     padding: 8px 15px;
     border-radius: 20px;
@@ -560,36 +574,38 @@ h2 {
 }
 
 .pista-message {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #e31837, #ff304f);
     color: white;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 15px;
     font-size: 1.1rem;
+    border: 1px solid #ffffff;
 }
 
 .pista-location {
-    background: #f8f9fa;
-    border: 2px solid #667eea;
+    background: #333333;
+    border: 2px solid #e31837;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #667eea;
+    color: #e31837;
 }
 
 /* Contenido de cartas */
 .card-content {
-    background: #fff3cd;
-    border: 2px solid #ffc107;
+    background: #1a1a1a;
+    border: 2px solid #e31837;
     border-radius: 10px;
     margin: 20px 0;
     overflow: hidden;
+    color: white;
 }
 
 .card-header {
-    background: #ffc107;
-    color: #856404;
+    background: #e31837;
+    color: white;
     padding: 15px;
     font-weight: bold;
     text-align: center;
@@ -602,42 +618,45 @@ h2 {
 .card-quote {
     font-style: italic;
     font-size: 1.1rem;
-    color: #856404;
+    color: #ffffff;
     margin-bottom: 15px;
     padding: 15px;
-    background: white;
+    background: #333333;
     border-radius: 8px;
-    border-left: 4px solid #ffc107;
+    border-left: 4px solid #e31837;
 }
 
 .card-message {
-    color: #856404;
+    color: #ffffff;
     line-height: 1.6;
     font-size: 1rem;
 }
 
 .key-input {
-    background: #e3f2fd;
-    border: 2px solid #2196f3;
+    background: #1a1a1a;
+    border: 2px solid #e31837;
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
+    color: white;
 }
 
 .key-input p {
-    color: #1976d2;
+    color: #e31837;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 .key-input input {
     padding: 12px 20px;
-    border: 2px solid #2196f3;
+    border: 2px solid #e31837;
     border-radius: 25px;
     font-size: 1rem;
     outline: none;
     margin-right: 10px;
     min-width: 200px;
+    background: #333333;
+    color: white;
 }
 
 /* Feedback */
@@ -650,21 +669,21 @@ h2 {
 }
 
 .feedback.success {
-    background: #d4edda;
-    color: #155724;
-    border: 2px solid #c3e6cb;
+    background: #1a1a1a;
+    color: #00ff00;
+    border: 2px solid #00ff00;
 }
 
 .feedback.error {
-    background: #f8d7da;
-    color: #721c24;
-    border: 2px solid #f5c6cb;
+    background: #1a1a1a;
+    color: #ff0000;
+    border: 2px solid #ff0000;
 }
 
 .feedback.hint {
-    background: #fff3cd;
-    color: #856404;
-    border: 2px solid #ffeaa7;
+    background: #1a1a1a;
+    color: #ffff00;
+    border: 2px solid #ffff00;
 }
 
 /* Pantalla final */
@@ -684,12 +703,13 @@ h2 {
 }
 
 .victory-card {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #e31837, #ff304f);
     color: white;
     padding: 40px;
     border-radius: 20px;
     margin: 30px 0;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 40px rgba(227, 24, 55, 0.3);
+    border: 3px solid #ffffff;
 }
 
 .victory-card h2 {
@@ -720,7 +740,7 @@ h2 {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: #f00;
+    background: #e31837;
     animation: confetti-fall 3s linear infinite;
 }
 
@@ -811,16 +831,16 @@ h2 {
     gap: 8px;
     margin: 20px 0;
     padding: 15px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
-    border: 2px solid #333;
+    border: 2px solid #e31837;
 }
 
 .light {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 2px solid #333;
+    border: 2px solid #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     animation: lightPulse 2s ease-in-out infinite;
 }
