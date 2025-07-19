@@ -39,7 +39,7 @@ class CumpleC:
                 'libro': 'Padre Rico Padre Pobre',
                 'ubicacion': 'en sus principios fundamentales sobre el dinero',
                 'frase': 'La gente pobre y de clase media trabaja por dinero. Los ricos hacen que el dinero trabaje para ellos.',
-                'mensaje': 'Siempre me impresionas con tu visión y tu disciplina para lograr tus metas económicas, **Constantino**. Sé que el dinero trabajará para ti porque estás construyendo un futuro sólido y brillante. ¡Eres un maestro en ello!',
+                'mensaje': 'Siempre me impresionas con tu visión y tu disciplina para lograr tus metas económicas. Sé que el dinero trabajará para ti porque estás construyendo un futuro sólido y brillante. ¡Eres un maestro en ello!',
                 'clave': 'ricos',
                 'clave_alternativa': 'dinero'
             },
@@ -47,7 +47,7 @@ class CumpleC:
                 'libro': 'The Lean Startup',
                 'ubicacion': 'en los capítulos sobre el aprendizaje ágil',
                 'frase': 'The only way to win is to learn faster than anyone else.',
-                'mensaje': '**Constantino**, esta frase te describe a la perfección. Tu insaciable sed de conocimiento y tu capacidad para adaptarte y aprender rápidamente son tus mayores superpoderes. ¡Con eso, siempre ganas!',
+                'mensaje': 'Esta frase te describe a la perfección. Tu insaciable sed de conocimiento y tu capacidad para adaptarte y aprender rápidamente son tus mayores superpoderes. ¡Con eso, siempre ganas!',
                 'clave': 'learn',
                 'clave_alternativa': 'faster'
             },
@@ -55,7 +55,7 @@ class CumpleC:
                 'libro': 'El Negociador',
                 'ubicacion': 'en los capítulos sobre el arte de llegar a acuerdos',
                 'frase': 'El objetivo de la negociación no es la victoria, sino el acuerdo.',
-                'mensaje': 'Aunque eres un ganador nato, **Constantino**, valoro aún más tu capacidad para construir puentes y encontrar soluciones que beneficien a todos. Eso es verdadero liderazgo y éxito.',
+                'mensaje': 'Aunque eres un ganador nato, valoro aún más tu capacidad para construir puentes y encontrar soluciones que beneficien a todos. Eso es verdadero liderazgo y éxito.',
                 'clave': 'acuerdo',
                 'clave_alternativa': 'victoria'
             },
@@ -63,7 +63,7 @@ class CumpleC:
                 'libro': 'How to Win Friends and Influence People',
                 'ubicacion': 'en sus principios para conectar con los demás',
                 'frase': 'To be interesting, be interested.',
-                'mensaje': '**Constantino**, tu curiosidad genuina y tu interés por aprender de todo y de todos te hacen una persona fascinante y un líder natural. ¡Nunca dejes de inspirar!',
+                'mensaje': 'Tu curiosidad genuina y tu interés por aprender de todo y de todos te hacen una persona fascinante y un líder natural. ¡Nunca dejes de inspirar!',
                 'clave': 'interested',
                 'clave_alternativa': 'friends'
             },
@@ -71,7 +71,7 @@ class CumpleC:
                 'libro': 'The Psychology of Money',
                 'ubicacion': 'hacia la mitad del libro, donde se habla de la disciplina',
                 'frase': 'Tener dinero es poder; mantenerlo es disciplina.',
-                'mensaje': '**Constantino**, tú entiendes que el verdadero poder no es solo acumular, sino gestionar con sabiduría. Tu disciplina y visión en cada aspecto de tu vida son un ejemplo para mí y para muchos. Estoy increíblemente orgullosa de ti.',
+                'mensaje': 'Tú entiendes que el verdadero poder no es solo acumular, sino gestionar con sabiduría. Tu disciplina y visión en cada aspecto de tu vida son un ejemplo para mí y para muchos. Estoy increíblemente orgullosa de ti.',
                 'clave': 'disciplina',
                 'clave_alternativa': 'poder'
             },
@@ -79,7 +79,7 @@ class CumpleC:
                 'libro': 'The Lean Startup',
                 'ubicacion': 'en los primeros capítulos sobre cómo empezar',
                 'frase': 'El producto mínimo viable es tu boleto a la realidad.',
-                'mensaje': '**Constantino**, siempre transformas tus ideas en realidades. Cada paso que das, por pequeño que parezca, es un avance hacia los gigantes proyectos que construirás. Eres un arquitecto de sueños. ¡Te amo!',
+                'mensaje': 'Siempre transformas tus ideas en realidades. Cada paso que das, por pequeño que parezca, es un avance hacia los gigantes proyectos que construirás. Eres un arquitecto de sueños. ¡Te amo!',
                 'clave': 'realidad',
                 'clave_alternativa': 'viable'
             }
