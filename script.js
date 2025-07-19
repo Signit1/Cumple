@@ -9,6 +9,7 @@ class CumpleC {
         this.totalPistas = 8;
         this.riddleAttempts = 0;
         this.maxRiddleAttempts = 3;
+        this.riddleCompleted = false;
         
         // Datos de las pistas
         this.pistas = {
@@ -202,6 +203,12 @@ class CumpleC {
             feedback.className = 'feedback success';
             feedback.style.display = 'block';
             
+            // Marcar acertijo como completado
+            this.riddleCompleted = true;
+            
+            // Actualizar progreso inmediatamente
+            this.updateProgress();
+            
             setTimeout(() => {
                 this.startPistas();
             }, 2000);
@@ -239,10 +246,22 @@ class CumpleC {
         const progressPercentage = document.getElementById('progress-percentage');
         const progressFill = document.getElementById('progress-fill');
 
-        completedCount.textContent = this.pistasCompletadas;
-        const percentage = (this.pistasCompletadas / this.totalPistas) * 100;
+        // Calcular progreso total incluyendo el acertijo inicial
+        const totalSteps = this.totalPistas + 1; // +1 por el acertijo inicial
+        const completedSteps = this.pistasCompletadas + (this.riddleCompleted ? 1 : 0);
+        
+        completedCount.textContent = completedSteps;
+        const percentage = (completedSteps / totalSteps) * 100;
         progressPercentage.textContent = `${Math.round(percentage)}%`;
         progressFill.style.width = `${percentage}%`;
+        
+        // Efecto de aceleración cuando avanza
+        if (progressFill.style.width !== '0%') {
+            progressFill.style.animation = 'carMove 0.5s ease-in-out';
+            setTimeout(() => {
+                progressFill.style.animation = '';
+            }, 500);
+        }
     }
 
     displayPista() {
@@ -361,6 +380,7 @@ class CumpleC {
         this.currentPista = 1;
         this.pistasCompletadas = 0;
         this.riddleAttempts = 0;
+        this.riddleCompleted = false;
         this.showScreen('start-screen');
     }
 }
