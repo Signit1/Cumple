@@ -105,7 +105,6 @@ class CumpleC {
     bindEvents() {
         // Botones principales
         document.getElementById('start-btn').addEventListener('click', () => this.showPhaseSelect());
-        document.getElementById('test-btn').addEventListener('click', () => this.showPhaseSelect());
         document.getElementById('back-btn').addEventListener('click', () => this.showScreen('start-screen'));
 
         // Selección de fase
@@ -128,6 +127,9 @@ class CumpleC {
         document.getElementById('riddle-answer').addEventListener('keypress', (e) => {
             if (e.key === 'Enter') this.checkRiddle();
         });
+        
+        // Botón para regresar a la Fase 1
+        document.getElementById('back-to-phase1-btn').addEventListener('click', () => this.showPhase1());
 
         // Pistas
         document.getElementById('found-card-btn').addEventListener('click', () => this.showCardContent());
