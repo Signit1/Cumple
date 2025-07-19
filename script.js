@@ -183,7 +183,7 @@ class CumpleC {
 
         // Simular carga
         setTimeout(() => {
-            this.showFeedback('✅ Programa cargado para el 19 de Julio. ¡Que la dopamina te acompañe!', 'success');
+            this.showFeedback('✅ Programa cargado para el 19 de Julio. ¡Que la suerte y el éxito te acompañen!', 'success');
             setTimeout(() => {
                 this.showScreen('start-screen');
             }, 3000);

@@ -139,7 +139,7 @@ Mañana, la verdadera carrera comienza. Prepárate para usar todo tu ingenio. Po
         input("\n🎾 Presiona ENTER para continuar...")
         
         self.animacion_carga("Programando el desafío para mañana...")
-        print("\n✅ Programa cargado para el 19 de Julio. ¡Que la dopamina te acompañe!")
+        print("\n✅ Programa cargado para el 19 de Julio. ¡Que la suerte y el éxito te acompañen!")
         
         input("\n🏁 Presiona ENTER para cerrar...")
 
