@@ -80,7 +80,7 @@ class CumpleC {
 
         // Mensajes del sistema
         this.mensajesSistema = {
-            1: "¡Primera vuelta completada! Dirígete a la esencia del corazón.",
+            1: "¡Primera vuelta completada!",
             2: "¡Has superado la primera chicane! Ahora, enfrenta el desafío interno.",
             3: "¡Gran avance en el sector financiero! La próxima parada te espera.",
             4: "¡Acelera en la innovación! La siguiente señal de boxes está en.",
