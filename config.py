@@ -23,7 +23,7 @@ Mi nombre, en alemán, podría evocar la palabra 'rojo'. ¿Qué curva soy?
 # Configuración de mensajes del sistema
 MENSAJES_SISTEMA = {
     1: "¡Primera vuelta completada!",
-    2: "¡Has superado la primera chicane! Ahora, enfrenta el desafío interno.",
+    2: "Has superado la primera vuelta, Ahora, el siguiente desafío",
     3: "¡Gran avance en el sector financiero! La próxima parada te espera.",
     4: "¡Acelera en la innovación! La siguiente señal de boxes está en.",
     5: "¡Negociando la curva perfecta! Tu próxima parada es en.",
