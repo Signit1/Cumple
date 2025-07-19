@@ -96,7 +96,7 @@ class CumpleC {
 
     init() {
         this.bindEvents();
-        this.checkDate();
+        // this.checkDate(); // Comentado para permitir acceso libre sin restricción de fechas
     }
 
     bindEvents() {
