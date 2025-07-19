@@ -97,6 +97,9 @@ class CumpleC {
     init() {
         this.bindEvents();
         // this.checkDate(); // Comentado para permitir acceso libre sin restricción de fechas
+        
+        // Mostrar directamente la Fase 1 (día de ayer)
+        this.showPhase1();
     }
 
     bindEvents() {

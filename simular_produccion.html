@@ -325,6 +325,12 @@
         // Inicializar display de fecha
         document.addEventListener('DOMContentLoaded', () => {
             updateDateDisplay();
+            
+            // Mostrar directamente la Fase 1 (día de ayer)
+            setTimeout(() => {
+                const app = new CumpleC();
+                app.showPhase1();
+            }, 100);
         });
     </script>
 </body>
