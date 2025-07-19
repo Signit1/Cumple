@@ -28,8 +28,8 @@ class CumpleC:
                 'clave_alternativa': 'esencial'
             },
             2: {
-                'libro': 'Los Miserables',
-                'ubicacion': 'en las reflexiones sobre la lucha personal',
+                            'libro': 'Harry Potter',
+            'ubicacion': 'Capítulo 17 del primer libro',
                 'frase': 'El mayor de los combates es aquel que se libra contra uno mismo.',
                 'mensaje': 'Sé que te exiges mucho, y admiro tu constante búsqueda de mejora, **Constantino**. Recuerda que ya has ganado muchas batallas internas, y eso te hace increíblemente fuerte. Siempre estaré aquí para ti.',
                 'clave': 'combates',

@@ -73,7 +73,7 @@ Coloca cada carta en el libro correspondiente:
 | Carta | Libro | Ubicación Sugerida |
 |-------|-------|-------------------|
 | 1 | El Principito | Capítulo del zorro |
-| 2 | Los Miserables | Capítulos sobre lucha interna |
+| 2 | Harry Potter | Capítulo 17 del primer libro |
 | 3 | Padre Rico Padre Pobre | Capítulos sobre dinero |
 | 4 | The Lean Startup | Capítulos sobre aprendizaje |
 | 5 | El Negociador | Capítulos sobre acuerdos |

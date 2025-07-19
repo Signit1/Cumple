@@ -79,7 +79,7 @@ python3 test_cumplec.py
 Para que el desafío funcione completamente, Constantino necesitará acceso a estos libros:
 
 1. **El Principito** - Antoine de Saint-Exupéry
-2. **Los Miserables** - Victor Hugo
+2. **Harry Potter** - J.K. Rowling
 3. **Padre Rico Padre Pobre** - Robert Kiyosaki
 4. **The Lean Startup** - Eric Ries
 5. **El Negociador** - Michael Wheeler
