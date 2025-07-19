@@ -31,7 +31,7 @@ class CumpleC:
                             'libro': 'Los Miserables',
             'ubicacion': 'Capítulo 17 del primer libro',
                 'frase': 'El mayor de los combates es aquel que se libra contra uno mismo.',
-                'mensaje': 'Sé que te exiges mucho, y admiro tu constante búsqueda de mejora, **Constantino**. Recuerda que ya has ganado muchas batallas internas, y eso te hace increíblemente fuerte. Siempre estaré aquí para ti.',
+                'mensaje': 'Sé que te exiges mucho, y admiro tu constante búsqueda de mejora. Recuerda que ya has ganado muchas batallas internas y externas, y eso te hace increíblemente fuerte. Siempre estaré aquí para ti ya que somos un equipo.',
                 'clave': 'combates',
                 'clave_alternativa': 'lucha'
             },
