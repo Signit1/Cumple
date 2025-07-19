@@ -269,7 +269,7 @@ Mi nombre, en alemán, podría evocar la palabra 'rojo'. ¿Qué curva soy?
         print()
         
         mensaje_final = """
-¡BANDERA A CUADROS! ¡CAMPEÓN DEL GRAN PREMIO DEL AMOR Y EL CONOCIMIENTO!
+¡BANDERA A CUADROS! ¡CAMPEÓN DEL GRAN PREMIO DEL CONOCIMIENTO Y LA CONSTANCIA!
 
 ¡Lo lograste, Constantino! Has demostrado una vez más que no hay desafío que se te resista. Cada logro tuyo es un motivo de alegría y orgullo para mí. Tu esfuerzo, tu inteligencia y tu corazón gigante me inspiran.
 

@@ -34,7 +34,7 @@ MENSAJES_SISTEMA = {
 
 # Configuración del mensaje final
 MENSAJE_FINAL = {
-    'titulo': "¡BANDERA A CUADROS! ¡CAMPEÓN DEL GRAN PREMIO DEL AMOR Y EL CONOCIMIENTO!",
+    'titulo': "¡BANDERA A CUADROS! ¡CAMPEÓN DEL GRAN PREMIO DEL CONOCIMIENTO Y LA CONSTANCIA!",
     'contenido': """¡Lo lograste, Constantino! Has demostrado una vez más que no hay desafío que se te resista. Cada logro tuyo es un motivo de alegría y orgullo para mí. Tu esfuerzo, tu inteligencia y tu corazón gigante me inspiran.
 
 Ahora, dirígete al centro de la mesa en el comedor para recoger tu trofeo y celebrar tu cumpleaños, ¡y la promesa de muchos logros más juntos!
