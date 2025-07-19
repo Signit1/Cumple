@@ -23,7 +23,7 @@ class CumpleC:
                 'libro': 'El Principito',
                 'ubicacion': 'cerca de donde el zorro comparte una gran verdad',
                 'frase': 'Lo esencial es invisible a los ojos.',
-                'mensaje': 'Para mí, **Constantino**, lo esencial siempre ha sido y será tu corazón y tu mente brillantes. Lo demás, es solo ruido. Gracias por hacerme ver lo que realmente importa.',
+                'mensaje': 'Dicen que lo esencial es invisible a los ojos... por suerte, yo tengo rayos X en el corazón 🤓💘\n\nPorque contigo lo veo todo: tu forma de cuidarme, de hacerme reír, de estar incluso cuando no estás.\n\nY aunque no siempre se vea, lo nuestro brilla más que cualquier cosa visible.',
                 'clave': 'zorro',
                 'clave_alternativa': 'esencial'
             },
