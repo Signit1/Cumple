@@ -4,7 +4,7 @@ Una aventura interactiva para encontrar tu regalo con temática de F1 y programa
 
 ## 🚀 Demo en Vivo
 
-**🌐 [Ver la aplicación web](https://signit1.github.io/Cumple/)**
+**🌐 [Ver la aplicación web](https://cumpleconstantino.netlify.app)**
 
 ## 🎯 Descripción
 
@@ -76,7 +76,7 @@ CumpleC/
 
 La aplicación se despliega automáticamente en GitHub Pages cada vez que se hace push a la rama `main`.
 
-**URL de producción**: https://signit1.github.io/Cumple/
+**URL de producción**: https://cumpleconstantino.netlify.app
 
 ## 🎯 Respuestas de los Acertijos
 
