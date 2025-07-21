@@ -2,7 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Simulación de la aventura interactiva CumpleC con temática de F1">
+    <meta name="keywords" content="F1, cumpleaños, aventura, regalo, hackathon, simulación">
+    <meta name="author" content="CumpleC">
+    <meta name="theme-color" content="#e31837">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="CumpleC Sim">
     <title>🎂 ¡Feliz Cumpleaños Amor!! - Simulación de Producción</title>
     <link rel="stylesheet" href="styles.css">
     <style>
@@ -39,6 +46,35 @@
             border-radius: 5px;
             margin-bottom: 15px;
             text-align: center;
+        }
+        
+        /* Responsive para el panel de simulación */
+        @media (max-width: 768px) {
+            .simulation-panel {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin: 20px;
+                max-width: none;
+                order: -1;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .simulation-panel {
+                margin: 10px;
+                padding: 15px;
+            }
+            
+            .simulation-panel h3 {
+                font-size: 1.1rem;
+            }
+            
+            .simulation-panel button {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+                margin: 3px;
+            }
         }
     </style>
 </head>
