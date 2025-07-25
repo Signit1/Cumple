@@ -845,6 +845,76 @@ body::after {
     }
 }
 
+/* ===== PANTALLA DE RESPUESTAS ===== */
+
+.answers-content {
+    max-height: 60vh;
+    overflow-y: auto;
+    margin: 20px 0;
+    padding-right: 10px;
+}
+
+.answer-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.answer-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(227, 24, 55, 0.3);
+}
+
+.answer-card h3 {
+    color: #e31837;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.answer-card p {
+    color: #ffffff;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+
+.answer-card .answer {
+    background: linear-gradient(135deg, #e31837, #ff304f);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.love-message {
+    background: linear-gradient(135deg, #e31837, #ff304f);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    text-align: center;
+    border: 2px solid #ffffff;
+    box-shadow: 0 10px 30px rgba(227, 24, 55, 0.4);
+}
+
+.love-message h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.love-message p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
 /* Responsive */
 /* ===== RESPONSIVE DESIGN ===== */
 
@@ -860,6 +930,40 @@ body::after {
     #start-screen .container {
         min-height: 85vh;
         padding: 12px 10px;
+    }
+    
+    .answers-content {
+        max-height: 55vh;
+        margin: 15px 0;
+    }
+    
+    .answer-card {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .answer-card h3 {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    
+    .answer-card p {
+        font-size: 0.85rem;
+        margin-bottom: 6px;
+    }
+    
+    .love-message {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    
+    .love-message h3 {
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+    }
+    
+    .love-message p {
+        font-size: 0.9rem;
     }
     
     h1 {
@@ -937,6 +1041,45 @@ body::after {
     #start-screen .container {
         min-height: 90vh;
         padding: 10px 6px;
+    }
+    
+    .answers-content {
+        max-height: 50vh;
+        margin: 12px 0;
+    }
+    
+    .answer-card {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .answer-card h3 {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+    
+    .answer-card p {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+    
+    .answer-card .answer {
+        font-size: 0.85rem;
+        padding: 3px 6px;
+    }
+    
+    .love-message {
+        padding: 12px;
+        margin: 12px 0;
+    }
+    
+    .love-message h3 {
+        font-size: 1.1rem;
+        margin-bottom: 6px;
+    }
+    
+    .love-message p {
+        font-size: 0.85rem;
     }
     
     h1 {
@@ -1189,6 +1332,45 @@ body::after {
     #start-screen .container {
         min-height: 95vh;
         padding: 6px 3px;
+    }
+    
+    .answers-content {
+        max-height: 45vh;
+        margin: 8px 0;
+    }
+    
+    .answer-card {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .answer-card h3 {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+    }
+    
+    .answer-card p {
+        font-size: 0.75rem;
+        margin-bottom: 4px;
+    }
+    
+    .answer-card .answer {
+        font-size: 0.8rem;
+        padding: 2px 5px;
+    }
+    
+    .love-message {
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+    .love-message h3 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    
+    .love-message p {
+        font-size: 0.8rem;
     }
     
     h1 {

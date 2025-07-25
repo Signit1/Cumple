@@ -107,6 +107,10 @@ class CumpleC {
         document.getElementById('start-btn').addEventListener('click', () => this.showPhaseSelect());
         document.getElementById('back-btn').addEventListener('click', () => this.showScreen('start-screen'));
 
+        // Botón de respuestas
+        document.getElementById('answers-btn').addEventListener('click', () => this.showAnswers());
+        document.getElementById('back-to-phase-select').addEventListener('click', () => this.showPhaseSelect());
+
         // Selección de fase
         document.querySelectorAll('.phase-card').forEach(card => {
             card.addEventListener('click', (e) => {
@@ -378,6 +382,10 @@ class CumpleC {
         setTimeout(() => {
             feedback.remove();
         }, 3000);
+    }
+
+    showAnswers() {
+        this.showScreen('answers-screen');
     }
 
     restart() {
