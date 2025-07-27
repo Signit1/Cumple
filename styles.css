@@ -366,17 +366,24 @@ body::after {
     margin: 20px 0;
 }
 
+/* Contenedor de botones en pantalla de selección de fase */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
 /* Botones en pantalla de selección de fase */
 #phase-select-screen .btn-primary,
 #phase-select-screen .btn-secondary {
-    margin: 10px 5px;
+    margin: 0;
     display: inline-block;
     width: auto;
     min-width: 160px;
-}
-
-#phase-select-screen .btn-primary {
-    margin-right: 10px;
+    flex: 0 1 auto;
 }
 
 .phase-card {
@@ -1041,9 +1048,14 @@ body::after {
         margin: 5px;
     }
     
+    .button-container {
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
     #phase-select-screen .btn-primary,
     #phase-select-screen .btn-secondary {
-        margin: 6px 3px;
+        margin: 0;
         min-width: 140px;
         font-size: 0.9rem;
     }
@@ -1315,10 +1327,15 @@ body::after {
         margin: 3px 0;
     }
     
+    .button-container {
+        gap: 8px;
+        margin-top: 12px;
+    }
+    
     #phase-select-screen .btn-primary,
     #phase-select-screen .btn-secondary {
         width: auto;
-        margin: 4px 2px;
+        margin: 0;
         min-width: 120px;
         font-size: 0.85rem;
     }
@@ -1623,13 +1640,24 @@ body::after {
         right: -10px;
     }
     
+    .button-container {
+        gap: 6px;
+        margin-top: 8px;
+    }
+    
     .btn-primary, .btn-secondary {
         padding: 8px 16px;
         font-size: 0.85rem;
         border-radius: 20px;
         min-width: 100%;
-        margin: 3px 0;
+        margin: 0;
         box-sizing: border-box;
+    }
+    
+    #phase-select-screen .btn-primary,
+    #phase-select-screen .btn-secondary {
+        min-width: 120px;
+        width: auto;
     }
     
     .f1-lights {
