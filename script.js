@@ -111,6 +111,8 @@ class CumpleC {
         document.getElementById('answers-btn').addEventListener('click', () => this.showAnswers());
         document.getElementById('answers-btn-phase2').addEventListener('click', () => this.showAnswers());
         document.getElementById('answers-btn-pistas').addEventListener('click', () => this.showAnswers());
+        document.getElementById('answers-btn-start').addEventListener('click', () => this.showAnswers());
+        document.getElementById('answers-btn-fixed').addEventListener('click', () => this.showAnswers());
         document.getElementById('back-to-phase-select').addEventListener('click', () => this.showPhaseSelect());
 
         // Selección de fase
