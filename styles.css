@@ -366,6 +366,19 @@ body::after {
     margin: 20px 0;
 }
 
+/* Botones en pantalla de selección de fase */
+#phase-select-screen .btn-primary,
+#phase-select-screen .btn-secondary {
+    margin: 10px 5px;
+    display: inline-block;
+    width: auto;
+    min-width: 160px;
+}
+
+#phase-select-screen .btn-primary {
+    margin-right: 10px;
+}
+
 .phase-card {
     background: linear-gradient(135deg, #e31837, #ff304f);
     color: white;
@@ -1027,6 +1040,13 @@ body::after {
         font-size: 0.95rem;
         margin: 5px;
     }
+    
+    #phase-select-screen .btn-primary,
+    #phase-select-screen .btn-secondary {
+        margin: 6px 3px;
+        min-width: 140px;
+        font-size: 0.9rem;
+    }
 }
 
 /* Tablets pequeñas y móviles grandes */
@@ -1293,6 +1313,14 @@ body::after {
         font-size: 0.9rem;
         width: 100%;
         margin: 3px 0;
+    }
+    
+    #phase-select-screen .btn-primary,
+    #phase-select-screen .btn-secondary {
+        width: auto;
+        margin: 4px 2px;
+        min-width: 120px;
+        font-size: 0.85rem;
     }
     
     .f1-lights {
